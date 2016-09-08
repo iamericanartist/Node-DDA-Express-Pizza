@@ -1,0 +1,12 @@
+head
+  - const composedTitle = `${company}${title ? ` | ${title}` : ""}`
+  title= composedTitle
+  include styles.pug
+
+//- Conditionals- https://pugjs.org/language/conditionals.html
+
+//- //- ORRRRRR (with a slight server.js update)
+//- if page
+//-     title #{company} | #{page}
+//-   else
+//-     title #{company}
