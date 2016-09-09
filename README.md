@@ -2,7 +2,7 @@
 ## Node Database Driven Application / Express Pug Heroku / PizzaPlaceTwo
 
 
-![Express Pug Pizza](/public/images/PizzaPlaceTwo.jpg?raw=true "Express Pug Pizza Screenshot")
+![Express Pug Pizza](public/images/PizzaPlaceTwo.jpg?raw=true "Express Pug Pizza Screenshot")
 
 [Check it out on Heroku](https://floating-spire-47496.herokuapp.com/)
 ***
