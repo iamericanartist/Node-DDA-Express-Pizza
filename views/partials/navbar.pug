@@ -5,7 +5,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      a.navbar-brand(href='#') SLICE OF LYFE
+      a.navbar-brand(href='#') #{company}
 
     #navbar.collapse.navbar-collapse.navbar-right
       ul.nav.navbar-nav
@@ -15,3 +15,21 @@ nav.navbar.navbar-inverse.navbar-fixed-top
           a(href="/about") About
         li(class=`${page === "Contact" ? "active" : ""}`)
           a(href="/contact") Contact
+
+
+
+//- ///////////////////////////  ALTERNATIVE NAVBAR   ///////////////////////////
+    //- #navbar.collapse.navbar-collapse.navbar-right
+    //-   ul.nav.navbar-nav
+    
+    //-     li(class={ active: !page })                           //- Alternative 2
+    //-     li(class=`${page || 'active'}`)                       //- Alternative 3
+    //-       a(href='/') Home
+    
+    //-     li(class={ active: page === 'About' })                //- Alternative 2
+    //-     li(class=`${page === 'About' ? 'active' : ''}`)       //- Alternative 3
+    //-       a(href='/about') About
+    
+    //-     li(class={ active: page === 'Contact' })              //- Alternative 2
+    //-     li(class=`${page === 'Contact' ? 'active' : ''}`)     //- Alternative 3
+    //-       a(href='/contact') Contact
